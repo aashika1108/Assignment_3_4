@@ -21,5 +21,5 @@ function convertToCAD() {
   var usdAmount = parseFloat(usdInput);
   var rate = 1.33; // Hardcoded exchange rate
   var cadAmount = usdAmount * rate;
-  document.getElementById('result').innerHTML = ugit initsdAmount.toFixed(3) + ' USD is equal to ' + cadAmount.toFixed(3) + ' CAD.';
+  document.getElementById('result').innerHTML = usdAmount.toFixed(3) + ' USD is equal to ' + cadAmount.toFixed(3) + ' CAD.';
 }
